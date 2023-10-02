@@ -19,6 +19,12 @@
             class="reservation_form"
             action="https://formsubmit.co/smith.gethan@gmail.com" method="POST"
             >
+            <!-- Honeypot -->
+            <input type="text" name ="_honey" style="display: none;">
+
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name"><br>
                 <label for="number">Phone Number:</label><br>
