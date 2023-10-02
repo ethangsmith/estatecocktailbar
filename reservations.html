@@ -1,0 +1,37 @@
+<header>   
+    <h1>Your Personal Blog</h1>
+    <nav>
+       <a href=D:\ethan\coding\website/home.html>Home</a>
+       <a href="D:\ethan\coding\website/menu.html">Menu</a>
+       <a href="D:\ethan\coding\website/about.html">About</a>
+       <a href="D:\ethan\coding\website/reservations.html">Reservations</a>
+    </nav>
+    </header>
+
+
+    <main>
+        <section>
+           <p>Please submit your information here. We will confirm your reservation if we are available.</p>
+        </section>  
+        
+        <div>
+            <form 
+            class="reservation_form"
+            action="https://formsubmit.co/smith.gethan@gmail.com" method="POST"
+            >
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="number">Phone Number:</label><br>
+                <input type="text" id="number" name="number"><br>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" value="2023-10-01" min="2023-10-01" max="2024-12-31" /><br>
+                <label for="guests">Number of Guests in your Party:</label><br>
+                <input type="text" id="guests" name="guests"><br>
+                <label for="details">Anything we should know?</label><br>
+                <textarea id="details" name="details" rows="4" cols="50" placeholder="Celebrating a special occassion? Favorite snack? Go-to cocktail? Let us know!"></textarea><br>
+                <button type="submit" value="Submit">Submit</button><br>
+                </form>
+
+        </div>
+
+      </main>
