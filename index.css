@@ -34,7 +34,7 @@ body, main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-height: 60px;
+    min-height: 60px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
@@ -92,6 +92,8 @@ body, main {
         flex-direction: column;
         padding: 25px 0;
         row-gap: 18px;
+        max-height: 60px;
+
     }
 
     .nav_list {
