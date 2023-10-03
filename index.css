@@ -99,4 +99,11 @@ body, main {
     .nav_list {
         column-gap: 20px;
     }
+
+    body, main {
+        background-color: #e8f0f7;;
+        font-family: 'Times New Roman', Times, serif;
+        min-height: 5000px;
+        padding-top: 120px;
+    }
 }
